@@ -1,0 +1,167 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+#buttonCta {
+    background-color: blue;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style:normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px;
+}
+p.gray {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+#headerCta h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 40px;
+    /* line-height: 82px; */
+    color: #000000;
+}
+#headerImg {
+    margin-left: 42px;
+}
+#headerImg img {
+    width:100%;
+}
+.headerLogo {
+    text-align: center;
+}
+.headerLogo img {
+    width: 50%;
+}
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#headerClientText {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:black;
+}
+h2.red {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color:red;
+}
+h1.black {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color:black;
+    margin-top: 0;
+}
+.textCenter {
+    text-align: center;
+}
+#services .textCenter h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color:black;
+}
+#contact img {
+    width: 100%;
+}
+#contactForm {
+    margin-left: 75px;
+}
+#contact {
+    margin-top: 100px;
+}
+#contactForm input {
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:gray;
+    border: 0;
+    width: 70%;
+    padding: 5px 30px;
+}
+#contactForm button {
+    background: blue;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color:#FFFFFF;
+    border: 0;
+    padding: 5px 30px;
+    text-align: center;
+}
+#portifolioTitle {
+    margin-top: 75px;
+}
+.portifolioImg img {
+    width: 100%;
+}
+.portifolioImg {
+    padding: 20px;
+}
